@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: com.google.cloud.spanner.hibernate.SpannerDialect
+        show_sql: true
+
+spring.datasource.url: jdbc:cloudspanner:/projects/spanner-dev-54631/instances/spanner-dev/databases/checkout-order
+# Specify the Spanner JDBC driver.
+spring.datasource.driver-class-name: com.google.cloud.spanner.jdbc.JdbcDriver
+
+
+
+server:
+  port: 1234
