@@ -16,16 +16,16 @@ import javax.persistence.*;
 public class Order {
 
     @Id
-    @Column(name = "ORDER_GUID")
+    @Column(name = "order_guid")
     private String orderGuid;
 
-    @Column(name = "BUYER_GUID")
+    @Column(name = "buyer_guid")
     private String buyerGuid;
 
-    @Column(name = "ORDER_ID")
+    @Column(name = "order_id")
     private Long orderId;
 
-    @Column(name = "ORDER_STATUS_CODE")
+    @Column(name = "order_status_code")
     private Long orderStatusCode;
 
 }

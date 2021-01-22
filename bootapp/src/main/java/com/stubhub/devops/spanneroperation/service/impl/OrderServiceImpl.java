@@ -1,7 +1,7 @@
 package com.stubhub.devops.spanneroperation.service.impl;
 
 import com.stubhub.devops.spanneroperation.datamodel.entity.Order;
-import com.stubhub.devops.spanneroperation.datamodel.repository.OrderRepository;
+import com.stubhub.devops.spanneroperation.datamodel.repository.order.OrderRepository;
 import com.stubhub.devops.spanneroperation.service.intf.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

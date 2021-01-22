@@ -1,4 +1,4 @@
-package com.stubhub.devops.spanneroperation.datamodel.repository;
+package com.stubhub.devops.spanneroperation.datamodel.repository.order;
 
 import com.stubhub.devops.spanneroperation.datamodel.entity.Order;
 import org.springframework.data.jpa.repository.Modifying;
